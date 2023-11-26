@@ -7,15 +7,21 @@ type ListNode struct {
 	Next *ListNode
 }
 
-func removeElements(head *ListNode, val int) *ListNode {
-	if len(head) == 0 {
-		return head
-	}
-	for _, v := range v {
-
-	}
-}
-
 func main() {
-	fmt.Println()
+	fmt.Println(removeElements(&ListNode{
+		Val: 1,
+		Next: &ListNode{
+			Val: 2,
+			Next: &ListNode{
+				Val: 3,
+				Next: &ListNode{
+					Val: 4,
+					Next: &ListNode{
+						Val:  5,
+						Next: nil,
+					},
+				},
+			},
+		},
+	}, 5))
 }

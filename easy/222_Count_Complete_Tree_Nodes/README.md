@@ -1,4 +1,3 @@
-
 Solution: 222. Count Complete Tree Nodes
 
 Description:
@@ -10,4 +9,3 @@ Design an algorithm that runs in less than O(n) time complexity.
 
 URL:
 https://leetcode.com/problems/count-complete-tree-nodes/description/
-
